@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{ int a,b;
+char op;
+
+ cout<<"enter any two number"<<endl;
+ cin>>a;
+ cin>>b;
+ cout<<"any any operand(+,-,*,/)"<<endl;
+ cin>>op;
+ if (op=='+')
+ { cout<<"the sum of two number is"<<a+b<<endl;
+ }
+else if (op=='-')
+{ cout<<"the subraction of two number is"<<a-b<<endl;
+}
+else if (op=='*') {
+
+cout<<"the mutiplication of two number is"<<a*b<<endl;
+}
+else if (op=='/')
+{ cout<<"the quotient of two number is"<<a/b<<endl;
+}
+else { 
+cout<<"wrong operand";
+}
+return 0;
+}
