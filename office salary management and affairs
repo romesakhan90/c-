@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{ 
+ int a,b;
+ cout<<"enter time taken by the worker"<<endl;
+ cin>>a;
+ cout<<"enter salary of worker"<<endl;
+ cin>>b;
+ if (a>='2'||a<='3')
+ { cout<<"highly efficient"<<endl;
+   
+ }
+ else if (a>='3'||a<='4')
+ {
+ cout<<"improve speed"<<endl;
+ cout<<b*0.05<<endl;}
+
+ else if (a>='4')
+{cout<<"leave the company"<<endl;
+}
+else 
+{cout<<"not recommended"<<endl;}
+
+return 0;
+
+}
